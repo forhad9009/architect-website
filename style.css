@@ -138,6 +138,54 @@ header img{
 }
 
 
+.features-love-enjoy {
+    display: flex;
+    margin-top: 10%;
+}
+
+.features-love {
+    width: 30%;
+}
+
+.features-love h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 5%;
+    font-weight: 900;
+}
+
+.features-love h3 {
+    margin-top: 25%;
+}
+
+.features-love h1, h3, p {
+    padding-left: 8%;
+
+}
+
+.sp-p {
+    padding-left: 2%;
+}
+.features-enjoy img {
+    width: 100%;
+}
+.btn2 {
+    text-decoration: none;
+    padding: 6% 10%;
+    background-image: linear-gradient(blue,blueviolet);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:576px) {
+    .features-love-enjoy {
+        flex-direction: column;
+        margin-top: 20%;
+    }
+    .features-love {
+        width: 100%;
+    }
+}
     
     
     
