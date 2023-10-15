@@ -248,7 +248,51 @@ header img{
         }
         
 }
+
+.our-sponsors {
+    padding-bottom: 10%;
+}
+
+.our-sponsors h1,p {
+    text-align: center;
+}
+
+.our-sponsors h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-weight: 900;
+}
+
+.our-sponsors p {
+    margin-bottom: 3%;
+}
+.sponsors {
+    display:flex; 
+    justify-content: space-around;
+}
     
+
+@media screen and (max-width:576px) {
+    .sponsors {
+        flex-direction: column;
+    }
+
+    .our-sponsors h1 {
+        margin-bottom: 10%;
+    }
+    .our-sponsors p {
+        margin-bottom: 10%;
+        width: 100%;
+    }
+
+    .sponsors img {
+        width: 40%;
+        margin: 5% 30%;
+
+    }
+}
     
     
     
