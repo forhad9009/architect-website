@@ -6,6 +6,10 @@
 
 }
 
+p{
+    color: gray;
+}
+
 header{
     padding: 8% 20%;
     background-color:rgb(243, 239, 234);
@@ -56,7 +60,7 @@ nav h2{
     margin-bottom: 3%;
 }
 
-.title a{
+.btn{
     text-decoration: none;
     padding: 2% 4%;
     background-image: linear-gradient(blue,blueviolet);
@@ -83,4 +87,100 @@ header img{
     .menu-bar ul{
         justify-content: center;
     }
+}
+
+.our-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.features {
+    padding: 0 8%;
+}
+    
+.features h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 5%;
+    font-weight: 900;
+}
+
+.features-h1 {
+    color: gray;
+}
+
+.features-h1-h1 {
+    color: blue;
+}
+
+.features p{
+    margin-bottom: 5%;
+}
+
+@media  screen and (max-width:576px) {
+    .our-features {
+        flex-direction: column;
+    }
+    .img{
+        grid-template-columns: 1fr;
+    }
+    .features h1 {
+        margin-top: 10%;
+    }
+}
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ;
 }
