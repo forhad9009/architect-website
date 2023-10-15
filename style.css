@@ -75,7 +75,7 @@ header img{
 
 @media screen and (max-width:576px) {
     header{
-        background-color: aqua;
+        background-color:antiquewhite;
         padding: 5%;
     }
     nav{
